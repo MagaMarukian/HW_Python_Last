@@ -58,8 +58,7 @@ class Computation:
         for i in range(1, 11):
             print(f'{n} * {i} == {n * i}')
 
-    def all_tables_mult(self, n):
-        self.validation(n)
+    def all_tables_mult(self):
         for j in range(1, 6):
             for i in range(1, 6):
                 print(f'{i} * {j} == {j * i}', end='\t\t\t')

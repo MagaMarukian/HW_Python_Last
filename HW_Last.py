@@ -75,5 +75,5 @@ print(c1._sum(5))
 print(c1.is_prime(7))
 print(c1.all_is_prime(7))
 print(c1.mult(3))
-print(c1.all_tables_mult(3))
+print(c1.all_tables_mult())
 

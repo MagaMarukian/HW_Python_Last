@@ -60,10 +60,15 @@ class Computation:
 
     def all_tables_mult(self, n):
         self.validation(n)
-        for i in range (1, n + 1):
-            for j in range(1, 11):
-                print(f'{i} * {j} == {j * i}')
-            print('----------')
+        for j in range(1, 6):
+            for i in range(1, 6):
+                print(f'{i} * {j} == {j * i}', end='\t\t\t')
+            print('')
+        print('')
+        for j in range(6, 11):
+            for i in range(6, 11):
+                print(f'{i} * {j} == {j * i}', end='\t\t\t')
+            print('')
 
 c1 = Computation()
 print(c1.factorial(5))
